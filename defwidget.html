@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+<!--     <link rel="stylesheet" href="css/tellinput.css">-->
+    <link rel="stylesheet" href="css/intlTelInput.css">
+    <link rel="stylesheet" href="css/cashmyvisit.css" />
+    <link rel="stylesheet" href="css/cmv_default.css" />   
+<!--    <script src="js/jquery-2.0.2.min.js"></script>-->
+</head>
+<body>
+
+<div class="cmv_widget_body" cmv_widget_id="1104056" cmv_widgetbody="1">
+    <div class="cmv_widget_bg">
+        <div class="cmv_main">
+            <a href="javascript:void(0);" class="cmv_main__close cmv_widget_close" cmv_widgetclose_button="1" cmv_result_id="6"></a>
+            <a href="http://cashmyvisit.com/?utm_source='+nissan.autoprodix.ru+'&amp;utm_medium=cmv_widget" class="cmv_main__cpr" target="_blank">Cashmyvisit</a>
+            <div class="cmv_textmid">
+                <div class="cmv_menubar">
+
+                </div>
+
+                <div class="cmv_title">
+                    <div class="cmv_lh30">Не нашли, что искали? Возникли вопросы? Мы перезвоним вам за 27 секунд и поможем!</div>
+                    <div class="cmv__branchoffice_menubar">
+                        <div class="cmv_branchoffice">
+                            <span class="cmv_branchoffice_label"><!--Филиал: --></span>
+                            <span class="cmd_branchoffice_value" cmv_branchoffice="1">Выберите дилерский центр</span><span class="cmv_geo_dropdown"></span>
+                            <div class="cmv_branchoffice_menu" cmv_branchoffice_menu="1">
+                                <div class="cmv_branchoffice_menu_top"></div>
+                                <div class="cmv_branchoffice_menu_body">
+                                    <ul>
+                                        <li><span cmv_branchoffice_menu_item="1">Автопродикс Гражданский</span></li>
+                                        <li><span cmv_branchoffice_menu_item="1">Автопродикс Московский</span></li>
+                                        <li><span cmv_branchoffice_menu_item="1">Автопродикс Приморский</span></li>
+                                    </ul>
+                                </div>
+                                <div class="cmv_branchoffice_menu_bottom"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="cmv_buttons" id="cmv_input">
+                    <div class="cmv_buttons__connect">
+                       <input type="tel" name="" id="mobile-number" value="" class="cmv_input__item mask-num b-cmv--country b-cmv--intl-tel-input b-cmv-mobile-number" b-cmv-mobile-number="1" cmv_widgetphone_input="1" placeholder="" maxlength="16" cmv_data-mask-placeholder="_">
+  
+                     
+                       
+                       
+                        <a href="javascript:void(0);" class="cmv_button cmv_button__connect" cmv_widgetphone_button="1" cmv_start_call="1" "="">Соединить</a>
+                    </div>
+                </div>
+                <div class="cmv_final__text">Мы соединим Вас в течение 27 секунд: <span class="cmv__timer" cmv_widgettimer="1" cmv_timer="27" cmv_goodid="6" cmv_badid="4">27,00</span></div>
+            </div>
+            <div class="cmv_heightfix"></div>
+        </div>
+    </div>
+</div> 
+   <script src="//code.jquery.com/jquery-1.9.1.min.js"></script>   
+    <script src="js/intlTelInput.js"></script>
+    <script src="js/cashmyvisit.js"></script>
+    <script src="js/cashmyvisit2.js"></script>
+    <script>
+        $("[b-cmv-mobile-number]").intlTelInput({
+             utilsScript:'js/utils.js',
+             defaultCountry: "auto",           
+             autoHideDialCode: false,   
+            // autoFormat: true,       
+             autoHideDialCode: false,    
+             nationalMode: false ,
+             allowExtensions: true
+                   
+                   
+        });
+        
+         $('[cmv_start_call]').on('click', function() {
+             console.log( $("[b-cmv-mobile-number]").val());
+         });
+    </script>
+</body>
+</html>

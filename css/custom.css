@@ -1,0 +1,283 @@
+/*������*/
+.cmv_widget_bg {
+    display: block;
+    position: fixed!important;
+    width: 100%!important;
+    height: 100%!important;
+    background-color: rgba(0,0,0,.6)!important;
+    top: 0!important;
+    z-index: 2000000;
+}
+
+/*.cmv_main  {
+    z-index: 2000001;,
+    background: rgba(255,255,255,0.9)!important;
+    top: 50%;
+    margin-top: -288px!important;
+}*/
+
+.cmv_widget_body {
+    position: fixed!important;
+    width: 100%!important;
+    height: 0!important;
+    top: 0!important;
+    left: 0!important;
+    z-index: 999999!important;
+}
+
+.cmv_main a:hover :not(.cmv_main__cpr), .cmv_main a:visited:not(.cmv_main__cpr), .cmv_main a:not(.cmv_main__cpr)  {
+    text-decoration: none!important;
+    color: #fff!important;
+}
+
+.cmv_input, .cmv_button input {
+    width: 223px!important;
+    height: 52px!important;
+    display: inline-block!important;
+    vertical-align: middle!important;
+}
+
+.cmv_blur {
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -ms-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    filter: url("data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="blur"><feGaussianBlur stdDeviation="3"/></filter></svg>#blur");
+}
+
+
+.cmv_main__close  {
+    text-align: center!important;
+}
+
+/*.cmv_main__cpr {
+    background: none!important;
+    color: #000000!important;
+    right: -25px!important;
+    font-size: 11px;
+}*/
+
+
+.cmv_main div {
+    font-family: 'Open Sans',sans-serif!important;
+    color: #000000!important;
+}
+
+.cmv_input__item {
+    margin-left: inherit;
+    width: inherit!important;
+    margin: initial!important;
+}
+
+span.cmv_textmid__timer, a.cmv_button__item2, a.cmv_main__cpr, a.cmv_main__close {
+    font-family: 'Open Sans',sans-serif!important;
+}
+
+/*ГЕО*/
+.cmv_menubar {
+    text-align: left;
+}
+
+.cmv_geo, .cmv_branchoffice {
+    height: 22px;
+    display: inline-block;
+}
+
+.cmv_geo_label, .cmv_branchoffice_label {
+    display: inline-block;
+    float: left;
+    font-family: "PFDinDisplayPro-Reg",serif;
+    line-height: 23px;
+    height: 20px;
+    color: #818181;
+    padding-right: 6px;
+}
+
+.cmd_geo_value, .cmd_branchoffice_value {
+    display: inline-block;
+    float: left;
+    color: #818181;
+    line-height: 17px;
+    height: 17px;
+    border-bottom: 1px dashed #818181;
+    font-size: 15px;
+    padding-top: 3px;
+    cursor: pointer;
+
+}
+
+.cmv_geo_dropdown, .cmv_branchoffice_dropdown {
+    /*position: absolute;*/
+    width: 8px;
+    height: 4px;
+    content: url(http://widget.cashmyvisit.com/img/dropdown.png);
+    /*left: 187px;*/
+    /*margin-top: 10px;*/
+    padding-left: 6px;
+    padding-top: 11px;
+    display: inline-block;
+    float: left;
+
+}
+
+.cmv_geo_menu, .cmv_branchoffice_menu {
+    position: absolute;
+    padding-top: 18px;
+    left: 83px;
+    text-align: center;
+    display: none;
+    z-index: 101;
+}
+
+.cmv_geo_menu_top, .cmv_branchoffice_menu_top {
+    height: 37px;
+    width: 280px;
+    background: url(http://widget.cashmyvisit.com/img/submenu_top.png) no-repeat;
+
+}
+
+.cmv_geo_menu_body, .cmv_branchoffice_menu_body {
+    width: 250px;
+    background: url(http://widget.cashmyvisit.com/img/submenu_bg.png) repeat-y;
+    padding: 0 15px 0 15px;
+
+}
+
+.cmv_geo_menu_bottom, .cmv_branchoffice_menu_bottom {
+    height: 42px;
+    width: 280px;
+    background: url(http://widget.cashmyvisit.com/img/submenu_bottom.png) no-repeat;
+
+}
+
+.cmv_geo_menu_body, .cmv_branchoffice_menu_body ul  {
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+.cmv_geo_menu_body, .cmv_branchoffice_menu_body ul li {
+
+    margin: 0;
+    padding: 4px 7px 4px 42px;
+    text-align: left;
+    font-size: 14px;
+    font-family: "PFDinDisplayPro-Reg",Verdana;
+    font-weight: normal;
+    list-style-position: outside;
+}
+
+.cmv_geo_menu_body, .cmv_branchoffice_menu_body ul li span {
+    cursor: pointer;
+}
+/*ГЕО*/
+
+/* ФИЛИАЛ */
+.cmv__branchoffice_menubar {
+    text-align: center;
+    padding-top: 5px;
+}
+
+/* ФИЛИАЛ */
+
+div.cmv_phone, div.cmv_phone__cir, div.cmv_phone__cir2, div.cmv_phone__cir3, div.cmv_phone__cir4 {
+    transform-origin: initial!important;
+    -webkit-transform-origin: initial!important;
+    -ms-transform-origin: initial!important;
+    -o-transform-origin: initial!important;
+}
+
+.cmv_branchoffice_menu {
+    left: 232px!important;
+}
+
+/**/
+
+.cmv_buttons__connect {
+    margin-top: 15px!important;
+}
+
+
+
+/************************************************\
+
+COUNTRY SELECT
+
+\************************************************/
+
+#select-dropdown {
+	color:rgba(50,50,50,1);
+	width:250px;
+	margin:auto;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-top:-20px;
+	margin-left:-125px;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor:pointer;
+}
+
+.select {
+	background-color:#fff;
+	text-align:center;
+	font-weight:bold;
+	text-transform:uppercase;
+	line-height:40px;
+	height:40px;
+	border-bottom:1px solid rgba(230,230,230,1);
+	-webkit-transition:top 0.2s, -webkit-transform 0.2s, color 0.2s, background-color 0.2s;
+	width:230px;
+	margin:auto;
+	box-shadow:0px 0px 2px rgba(0,0,0,0.1);
+
+	position:absolute;
+	left:50%;
+	margin-left:-115px;
+}
+
+.select:last-child {
+	border-bottom:none;
+}
+
+.open .option:hover {
+	background-color:#DE264C;
+	color:#fff;
+}
+
+.default {
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility:hidden;
+	-webkit-transform-origin:50% 0%;
+	-webkit-transition:transform 0.3s;
+	-webkit-transform: perspective( 600px ) rotateX( 0deg );
+	z-index:1000;
+}
+
+.default:active {
+	-webkit-transform: perspective( 600px ) rotateX( 45deg );
+	-webkit-perspective:600px;
+}
+
+/****** COUNTRY SELECT ************************************/
+
+.intl-tel-input .country-list {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.intl-tel-input .selected-flag {
+    width: 45px;
+}
+
+
+
+
+

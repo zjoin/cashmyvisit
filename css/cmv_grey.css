@@ -1,0 +1,15 @@
+.cmv_button__yes,.cmv_button__connect,.cmv_button__notime,.jRatingAverage,.jRatingColor,.cmv_main__close:hover:before,.cmv_phone__cir2,.cmv_phone__mobile,.cmv_phone__handset{background-color:#b2b2b2;}
+.cmv_button__connect:hover,.cmv_button__notime:hover,.cmv_button__yes:hover{background:#f97054;box-shadow:0 0 1px rgba(0,0,0,.22);}
+.cmv_button__connect:active,.cmv_button__notime:active,.cmv_button__yes:active{background:#da5135;}
+.cmv_button__no{background:#6c6c6c;margin-left:9px;}
+.cmv_button__no:hover{background:#aaa;box-shadow:0 0 1px rgba(0,0,0,.22);}
+.cmv_button__no:active{background:#8b8b8b;}
+.cmv_input__item.cmv_input__item_error,.cmv_input__item2.cmv_input__item_error {border:1px solid #f85c3c;}
+.cmv_phone__cir{border:2px solid #b2b2b2;}
+.cmv_main__cpr{color:#b2b2b2}
+.cmv_main .cmv_main__cpr:hover {color:#b2b2b2;}
+.cmv_phone .cmv_phone__cir {background-color:#b2b2b2;}
+.cmv_collect__button, .cmv_collect__input_bg, .cmv_collect__close, .cmv_collect__close.cmv_collect__disabled:hover{background-color:#b2b2b2;}
+.cmv_collect__close:hover{background-color:#C3C2C2;}
+.cmv_collect .cmv_collect__upload{border:1px solid #b2b2b2;}
+.cmd_geo_value, .cmd_branchoffice_value {color:#b2b2b2!important;border-color: #b2b2b2!important;}

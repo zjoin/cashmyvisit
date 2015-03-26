@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>cashmyvisit</title><meta charset="utf-8"></head>
+<body>
+	<link rel="stylesheet" href="css/cashmyvisit.css" />
+	<link rel="stylesheet" href="css/cmv_default.css" />
+<script src="js/cashmyvisit.js"></script>
+	<!-- window 1 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title"><div class="cmv_text21">Здравствуйте, Вы были у нас на сайте 3 минуты 35 секунд.</div></div>
+			<div class="cmv_title__after"><div class="cmv_mt17 cmv_text30">Вы нашли то, что искали?</div></div>
+			<div class="cmv_buttons">
+				<div class="cmv_buttons__confirm"><a href="#" class="cmv_button cmv_button__yes">Да</a><a href="#" class="cmv_button cmv_button__no">Нет</a></div>
+			</div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 2 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title"><div class="cmv_lh30">Сожалеем. Давайте мы позвоним Вам всего за 26 секунд и поможем с поиском</div></div>
+			<div class="cmv_buttons">
+				<div class="cmv_buttons__connect"><input type="text" name="" id="" class="cmv_input__item mask-num" placeholder="Мой номер телефона"><a href="#" class="cmv_button cmv_button__connect">Соединить</a></div>
+			</div>
+			<div class="cmv_final__text">Мы соединим Вас в течение 26 секунд: <span class="cmv__timer">26, 00</span></div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 2 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title">
+				<div class="cmv_lh30">Отлично! Давайте мы позвоним Вам всего за 26 секунд Отлично! Давайте мы позвоним Вам всего за 26 секунд Отлично! Давайте мы позвоним Вам всего за 26 секунд Давайте мы позвоним Вам всего за 26 секунд Отлично!</div>
+			</div>
+			<div class="cmv_buttons">
+				<div class="cmv_buttons__connect"><input type="text" name="" id="" class="cmv_input__item mask-num" placeholder="Мой номер телефона"><a href="#" class="cmv_button cmv_button__connect">Соединить</a></div>
+			</div>
+			<div class="cmv_final__text">Мы соединим Вас в течение 26 секунд: <span class="cmv__timer">26, 00</span></div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 3 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title">Соединяем с нашим лучшим менеджером..</div>
+			<div class="cmv_title__after"><div class="cmv__timer cmv__timer__big">23, 45, 32</div></div>
+			<div class="cmv_buttons"><a href="#" class="cmv_button cmv_button__notime">Не успели :(</a></div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 4 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title">С Вами общается: Менеджер по продажам Nissan</div>
+			<div class="cmv_title__after"><div class="cmv_text14 cmv_mt10 cmv_mb45">После разговора вам будет выслано sms с контактами Вашего менеджера</div></div>
+			<div class="cmv_final__text">
+				<div class="cmv_textmid__rate_txt">Вы можете оценить разговор прямо сейчас</div><div class="cmv_textmid__rate_strs" data-average="5" data-id="1"></div>
+			</div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 5 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_manager">
+				<div class="cmv_manager__icon"><img src="img/cmv_textmid__lt_tmp.png" alt=""></div>
+				<div class="cmv_manager__info">
+					<div class="cmv_manager__before">С Вами общается:</div>
+					<div class="cmv_manager__position">Менеджер по продажам Nissan</div>
+					<div class="cmv_manager__name">Артем Иванов</div>
+					<div class="cmv_manager__after">После разговора вам будет выслано sms с контактами Вашего менеджера</div>
+				</div>
+			</div>
+			<div class="cmv_final__text">
+				<div class="cmv_mt32 cmv_tal"><div class="cmv_textmid__rate_txt">Вы можете оценить разговор прямо сейчас</div><div class="cmv_textmid__rate_strs" data-average="5" data-id="1"></div></div>
+			</div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 6 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title">Мы сожалеем, что не соединили вас за 26 секунд.</div>
+			<div class="cmv_title__after">
+				<div class="cmv_text16 cmv_lh28 cmv_mt23 cmv_mb26">Вы можете оставить жалобу, и мы обязательно разберемся в произошедшем.</br>Или дать нам возможность исправиться и помочь Вам в поиске в кратчайшие сроки.</div>
+			</div>
+			<div class="cmv_buttons">
+				<div class="cmv_buttons__complaint"><a href="#" class="cmv_button cmv_button__yes">Исправиться и помочь!</a><a href="#" class="cmv_button cmv_button__no">Оставить жалобу</a></div>
+			</div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 7 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title"><div class="cmv_lh38 cmv_mb5">Спасибо за Ваше обращение, мы обязательно <br> разберемся в произошедшем.</div></div>
+			<div class="cmv_title__after"><div class="cmv_text21">Ваша жалоба отправлено по смс руководителю компании.</div></div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 8 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title">Спасибо за уделенное время, мы свяжемся с <br> Вами в кратчайшие сроки и вместе <br> найдем то, что Вы искали!</div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 9 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title"><div class="cmv_lh38 cmv_mb5">Давайте мы позвоним Вам в рабочее время <br>с 10 до 19 и обсудим детали. Давайте мы позвоним Вам в рабочее время <br>с 10 до 19 и обсудим детали. Давайте мы позвоним Вам в рабочее время <br>с 10 до 19 и обсудим детали.</div></div>
+			<div class="cmv_title__after">Выберите наиболее удобное время для перезвона</div>
+			<div class="cmv_buttons">
+				<div class="cmv_buttons__connect cmv_mt17 cmv_mb10">
+					<div class="cmv_input__time">
+						<span>Через</span>
+						<div class="cmv_input__time_box">
+							<select name="" id="">
+								<option value="">12 часов</option>
+								<option value="">13 часов</option>
+								<option value="">14 часов</option>
+								<option value="">15 часов</option>
+								<option value="">16 часов</option>
+							</select>
+						</div>
+					</div><input type="text" name="" id="" class="cmv_input__item mask-num" placeholder="Мой номер телефона"><a href="#" class="cmv_button cmv_button__connect">Соединить</a>
+				</div>
+			</div>
+			<div class="cmv_final__text"><div class="cmv_text21">Мы  позвоним вам в <strong>13-45</strong></div></div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 10 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title"><div class="cmv_lh38 cmv_mb5">Давайте мы позвоним Вам в рабочее время <br>с 10 до 19 и вместе найдем то, что вы искали!</div></div>
+			<div class="cmv_title__after">Выберите наиболее удобное время для перезвона</div>
+			<div class="cmv_buttons">
+				<div class="cmv_buttons__connect cmv_mt17 cmv_mb10">
+					<div class="cmv_input__time">
+						<span>Через</span>
+						<div class="cmv_input__time_box">
+							<select name="" id="">
+								<option value="">12 часов</option>
+								<option value="">13 часов</option>
+								<option value="">14 часов</option>
+								<option value="">15 часов</option>
+								<option value="">16 часов</option>
+							</select>
+						</div>
+					</div><input type="text" name="" id="" class="cmv_input__item mask-num" placeholder="Мой номер телефона"><a href="#" class="cmv_button cmv_button__connect">Соединить</a>
+				</div>
+			</div>
+			<div class="cmv_final__text"><div class="cmv_text21">Мы  позвоним вам в <strong>13-45</strong></div></div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 11 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title">Спасибо за уделенное время, мы свяжемся с <br> Вами в <strong>13-45</strong> и вместе найдем то, что Вы искали!</div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 12 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title">Здравствуйте, мы уже звонили Вам, <br> однако, возможно, у Вас остались какие-то вопросы?</div>
+			<div class="cmv_buttons">
+				<div class="cmv_buttons__confirm"><a href="#" class="cmv_button cmv_button__yes">Да</a><a href="#" class="cmv_button cmv_button__no">Нет</a></div>
+			</div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 13 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title">Давайте мы позвоним Вам и обсудим детали</div>
+			<div class="cmv_buttons">
+				<div class="cmv_buttons__connect"><input type="text" name="" id="" class="cmv_input__item mask-num" placeholder="Мой номер телефона"><a href="#" class="cmv_button cmv_button__connect">Соединить</a></div>
+			</div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 14 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title">Отлично! Давайте мы позвоним Вам  <br>и поможем в новом поиске!</div>
+			<div class="cmv_buttons">
+				<div class="cmv_buttons__connect"><input type="text" name="" id="" class="cmv_input__item mask-num" placeholder="Мой номер телефона"><a href="#" class="cmv_button cmv_button__connect">Соединить</a></div>
+			</div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 15 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title">Здравствуйте, Вы уже были у нас на сайте, <br> возможно, Вы ищете что-то конкретное?</div>
+			<div class="cmv_buttons">
+				<div class="cmv_buttons__confirm"><a href="#" class="cmv_button cmv_button__yes">Да</a><a href="#" class="cmv_button cmv_button__no">Нет</a></div>
+			</div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 16 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title">
+				<div class="cmv_lh30">Прекрасно! Давайте мы позвоним Вам всего за 26 секунд <br>и вместе найдем то, что Вы искали!</div>
+			</div>
+			<div class="cmv_buttons">
+				<div class="cmv_buttons__connect"><input type="text" name="" id="" class="cmv_input__item mask-num" placeholder="Мой номер телефона"><a href="#" class="cmv_button cmv_button__connect">Соединить</a></div>
+			</div>
+			<div class="cmv_final__text">Мы соединим Вас в течение 26 секунд: <span class="cmv__timer">26, 00</span></div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 17 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title">
+				<div class="cmv_lh30">Отлично! Давайте мы позвоним Вам всего за 26 секунд</div>
+			</div>
+			<div class="cmv_title__after">
+				<div class="cmv_text21">и вместе подумаем над тем, чем мы можем Вас заинтересовать!</div>
+			</div>
+			<div class="cmv_buttons">
+				<div class="cmv_buttons__connect cmv_mt20"><input type="text" name="" id="" class="cmv_input__item mask-num" placeholder="Мой номер телефона"><a href="#" class="cmv_button cmv_button__connect">Соединить</a></div>
+			</div>
+			<div class="cmv_final__text">Мы соединим Вас в течение 26 секунд: <span class="cmv__timer">26, 00</span></div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 18 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title">Здравствуйте, Вы уже были у нас на сайте 20 минут,  <br>возможно, Вы ищете что-то конкретное?</div>
+			<div class="cmv_buttons">
+				<div class="cmv_buttons__confirm"><a href="#" class="cmv_button cmv_button__yes">Да</a><a href="#" class="cmv_button cmv_button__no">Нет</a></div>
+			</div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 19 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title">
+				<div class="cmv_lh30">Прекрасно! Давайте мы позвоним Вам всего за 26 секунд <br>и вместе найдем то, что Вы искали!</div>
+			</div>
+			<div class="cmv_buttons">
+				<div class="cmv_buttons__connect"><input type="text" name="" id="" class="cmv_input__item mask-num" placeholder="Мой номер телефона"><a href="#" class="cmv_button cmv_button__connect">Соединить</a></div>
+			</div>
+			<div class="cmv_final__text">Мы соединим Вас в течение 26 секунд: <span class="cmv__timer">26, 00</span></div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 20 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title">
+				<div class="cmv_lh30">Отлично! Давайте мы позвоним Вам всего за 26 секунд</div>
+			</div>
+			<div class="cmv_title__after">
+				<div class="cmv_text21">и вместе подумаем над тем, чем мы можем Вас заинтересовать!</div>
+			</div>
+			<div class="cmv_buttons">
+				<div class="cmv_buttons__connect cmv_mt20"><input type="text" name="" id="" class="cmv_input__item mask-num" placeholder="Мой номер телефона"><a href="#" class="cmv_button cmv_button__connect">Соединить</a></div>
+			</div>
+			<div class="cmv_final__text">Мы соединим Вас в течение 26 секунд: <span class="cmv__timer">26, 00</span></div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 21 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title">Здравствуйте, мы уже пытались соединить Вас <br> с менеджером за 26 секунд, но не успели :(</div>
+			<div class="cmv_title__after">
+				<div class="cmv_mt23">Давайте попробуем еще раз - теперь мы точно должны успеть!</div>
+			</div>
+			<div class="cmv_buttons">
+				<div class="cmv_buttons__confirm"><a href="#" class="cmv_button cmv_button__yes">Да</a><a href="#" class="cmv_button cmv_button__no">Нет</a></div>
+			</div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 22 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title">
+				<div class="cmv_lh30">Спасибо за доверие!</div>
+			</div>
+			<div class="cmv_buttons">
+				<div class="cmv_buttons__connect"><input type="text" name="" id="" class="cmv_input__item mask-num" placeholder="Мой номер телефона"><a href="#" class="cmv_button cmv_button__connect">Соединить</a></div>
+			</div>
+			<div class="cmv_final__text">Мы соединим Вас в течение 26 секунд: <span class="cmv__timer">26, 00</span></div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- window 23 -->
+	<div class="cmv_main">
+		<a href="#" class="cmv_main__close"></a>
+		<a href="#" class="cmv_main__cpr">Cashmyvisit</a>
+		<div class="cmv_textmid">
+			<div class="cmv_title">
+				<div class="cmv_lh38">Жаль. Однако мы всегда будем рады Вашему звонку.</div>
+			</div>
+		</div>
+		<div class="cmv_heightfix"></div>
+	</div>
+	<!-- phone 1 -->
+	<div class="cmv_phone cmv_phone__show" style="top: 147px; left: 1242px; display: block;">
+		<div class="cmv_phone__cir"></div>
+		<div class="cmv_phone__cir2"></div>
+		<div class="cmv_phone__cir3"></div>
+		<!-- для трубки .cmv_phone__handset -->
+		<div class="cmv_phone__cir4 cmv_phone__mobile"></div>
+	</div>
+</body>
+</html>
