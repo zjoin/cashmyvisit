@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head lang="en">
     <meta charset="UTF-8">
@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/intlTelInput.css">
     <link rel="stylesheet" href="css/cashmyvisit.css" />
     <link rel="stylesheet" href="css/cmv_default.css" />   
-<!--    <script src="js/jquery-2.0.2.min.js"></script>-->
 </head>
 <body>
 
@@ -58,25 +57,43 @@
         </div>
     </div>
 </div> 
-   <script src="//code.jquery.com/jquery-1.9.1.min.js"></script>   
+    <script src="js/jquery-2.0.2.min.js"></script>
     <script src="js/intlTelInput.js"></script>
     <script src="js/cashmyvisit.js"></script>
     <script src="js/cashmyvisit2.js"></script>
     <script>
         $("[b-cmv-mobile-number]").intlTelInput({
              utilsScript:'js/utils.js',
-             defaultCountry: "auto",           
+             defaultCountry: 'auto',
+             preferredCountries: ['ru'],                       
              autoHideDialCode: false,   
             // autoFormat: true,       
              autoHideDialCode: false,    
              nationalMode: false ,
-             allowExtensions: true
-                   
-                   
+             onlyCountries: ['ru', 'ua', 'by']
+            // allowExtensions: true               
         });
         
+         
+        
          $('[cmv_start_call]').on('click', function() {
+           //  var intlNumber =  $("[b-cmv-mobile-number]").intlTelInput("getNumber");
+               var intlNumber =  $("[b-cmv-mobile-number]");
+             var error = $("[b-cmv-mobile-number]").intlTelInput("getValidationError");           
+                                  
+
+<!--
+             if (!intlNumber) return;
+              else console.log(intlNumber);
+
              console.log( $("[b-cmv-mobile-number]").val());
+-->
+           
+                
+          
+              $(this).val($("[b-cmv-mobile-number]").intlTelInput("getNumber"));
+         
+            
          });
     </script>
 </body>

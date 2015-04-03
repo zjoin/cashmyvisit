@@ -266,18 +266,4 @@ COUNTRY SELECT
 	-webkit-perspective:600px;
 }
 
-/****** COUNTRY SELECT ************************************/
-
-.intl-tel-input .country-list {
-    text-align: left;
-    margin-top: 10px;
-}
-
-.intl-tel-input .selected-flag {
-    width: 45px;
-}
-
-
-
-
 

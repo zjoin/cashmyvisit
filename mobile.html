@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mobile button</title>
+    <link rel="stylesheet" href="css/cmv_mobile.css">   
+    <link rel="stylesheet" href="css/cmv_default.css">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" rel="stylesheet" type="text/css" />
+    <style>
+        html, body {
+        height: 100%;   
+        }
+        
+        
+        
+    </style>   
+</head>
+<body>
+    <div class="cmv_phone cmv_phone__show cmv_widgetbuton_body cmv_widgetbuton_button" cmv_widgetshow_button="1" cmv_next_dialog="15" >	
+			<!-- для трубки .cmv_phone__handset -->
+			<!-- для мобильника .cmv_phone__mobile -->
+<!--			<a href="tel:123-456-7890">-->
+			<div class="cmv_phone__cir4 cmv_phone__handset cmv_widgetbuton_button"></div>
+<!--			</a>-->
+		</div>
+		<div class="overlayForMobile"></div>
+		<ul class="cmv-phone-regions">		    
+            <li><a href="#">Санкт-Петербург</a></li>
+            <li><a href="#">Москва</a></li>
+		</ul>
+		<script src="js/jquery-2.0.2.min.js"></script>
+		<script>
+         
+    
+         (function touchButton() {
+            $('body').bind('touchstart touchend', function(e) {              
+                $('.cmv_phone').toggleClass('cmvtouchhover');
+            });
+         })();
+          
+            
+         (function setRegions() {
+             var cmvPhone = $('.cmv_phone');
+             var regPhone =  $('.cmv-phone-regions');
+             //var bodyMobile = $('body');
+             var overlayMobile = $('.overlayForMobile');
+             var cmvPhoneHandset = $('.cmv_phone__handset');
+               cmvPhone.on('click', function(){ 
+               overlayMobile.toggleClass('overlayMobile');     
+               regPhone.toggleClass('regionsTop')
+               cmvPhoneHandset.toggleClass('cmvClose');
+              
+               });                           
+         })();
+            
+
+
+            
+    </script>
+    
+</body>
+</html>
